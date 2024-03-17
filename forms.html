@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- this form action take input where the after submission page render -->
+    <form action="./forms.html">   
+        <label for="fname">First Name : </label>
+        <input type="text" value="" id = "fname">
+        <br>
+        <label for="lname">Last Name: </label>
+        <input type="text" value="" id ="lname"> 
+
+        <!-- selecting multiple languages in one submission -->
+        <p>Choose your language</p>
+        <input type="radio">
+        <label>HTML</label>
+        <br>
+        <input type="radio">
+        <label>CSS</label>
+        <br>
+        <input type="radio" id = "js">
+        <label for = "js">JavaScript</label>
+
+
+
+        <!-- selecting one language at time  -->
+        <p>Choose your language</p>
+        <input type="radio" name = "fav">
+        <label>HTML</label>
+        <br>
+        <input type="radio" name = "fav">
+        <label>CSS</label>
+        <br>
+        <input type="radio" name = "fav">
+        <label>JavaScript</label>
+
+
+        <!-- you can also use checkbox -->
+        <p>Choose your language</p>
+        <input type="checkbox" name = "fav">
+        <label>HTML</label>
+        <br>
+        <input type="checkbox" name = "fav">
+        <label>CSS</label>
+        <br>
+        <input type="checkbox" name = "fav">
+        <label>JavaScript</label>
+        <br><br>
+
+        <!-- selection box in form  -->
+        <label for="select">Select the Anime :</label>
+        <select name="select" id="select">
+            <option value="AOT">AOT</option>
+            <option value="Death Note">Death Note</option>
+            <option value="Tanjiro">DEmon Slayer</option>
+            <option value="Zaraki">Bleach</option>
+        </select>
+        <br>
+
+        <!-- submission button -->
+        <input type="submit" value="Submit">
+
+    </form>
+    
+</body>
+</html>
